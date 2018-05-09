@@ -1,0 +1,21 @@
+@media (min-width: 0px) and (max-width: 480px) {
+	.menu,
+	.side{
+		display: none;
+	}
+	.first_block{
+		position: relative;
+	}
+	.main-picture{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		filter: blur(3px);
+	}
+	.main{
+		z-index: 1;
+	}
+	.half{
+		flex-basis: 100%;
+	}
+}
